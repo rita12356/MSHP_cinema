@@ -170,7 +170,18 @@ span{
             font-size: 25px;
     
         }
+
+        
+        .btn:hover {
+            background-color: rgb(29, 79, 195);
+            border: 5px solid rgb(29, 79, 195);
+        }
     
+        .btn:active {
+            background-color: #4b72cd;
+            border: 5px solid #4b72cd;
+        }
+        
         p {
             font-size: 18px;
         }
@@ -181,6 +192,9 @@ span{
             width: 70%;
             user-select: none;
         }
+        
+
+        
     
         .plac {
             display: inline-block;
@@ -199,6 +213,8 @@ span{
     
             color: #fff;
         }
+
+        
     
     
     
@@ -266,6 +282,8 @@ span{
     
             color: #fff;
         }
+
+        
     }
 
 @media (max-width: 767px) {
@@ -373,6 +391,14 @@ span{
         }
     
     
+        .btn:hover {
+            background-color: rgb(29, 79, 195);
+            border: 5px solid rgb(29, 79, 195);
+        }
     
+        .btn:active {
+            background-color: #4b72cd;
+            border: 5px solid #4b72cd;
+        }
        
 }
