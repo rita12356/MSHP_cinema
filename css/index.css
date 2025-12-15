@@ -12,7 +12,7 @@ h1{
 .screen{
     display: block;
     margin: 50px auto;
-    width: 50%;
+    max-width: 90%;
     user-select: none;
 }
 
@@ -188,7 +188,7 @@ span{
         .screen {
             display: block;
             margin: 50px auto;
-            width: 70%;
+            width: 90%;
             user-select: none;
         }
     
